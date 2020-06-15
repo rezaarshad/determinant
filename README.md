@@ -1,7 +1,7 @@
 # determinant
 Calculating determinant of matrices using MPI (Message Passing Interface) and C.
-1. Implementing using Gaussian algorithm with time complexity of O(n^3)
-2. Implementing using Laplace expansion (recursive) with time complexity of O(n!)!
+1. using Gaussian algorithm with time complexity of O(n^3)
+2. using Laplace expansion (recursive) with time complexity of O(n!)!
   You can ream more about this algorithm at here: https://en.wikipedia.org/wiki/Laplace_expansion
 
 # Installing mpich2
