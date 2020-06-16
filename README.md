@@ -8,7 +8,7 @@ Calculating determinant of matrices using MPI (Message Passing Interface) and C.
 For using mpi library you need to install mpich. you can find more information for installing mpich2 at here :
    http://mpitutorial.com/tutorials/installing-mpich2
    
-# Compiling and running using mpi
+# How to compile and run
 for compiling mpi based c file you can use:  
     mpicc filename.c –lm –o filename
 
