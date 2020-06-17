@@ -9,12 +9,11 @@ For using mpi library you need to install mpich. you can find more information f
    http://mpitutorial.com/tutorials/installing-mpich2
    
 # How to compile and run
-for compiling mpi based c file you can use:  
-    mpicc filename.c –lm –o filename
+mpicc filename.c –lm –o filename  
+mpicc –f machinefile –n 4 ./filename  
 
-for running mpi based application you can use:  
-    mpicc –f machinefile –n 4 ./filename  
-    This starts a four-process parallel application, running four copies of the executable named filename.  
-    machinefile is the file which indicate which hosts to start the processes on. so the file contains contributed machine    names.
+Notes:
+*-n 4 means four-process parallel application, running four copies of the executable named filename.  
+*machinefile is the file which indicate which hosts to start the processes on. so the file contains contributed machine    names.
    
 
